@@ -1,0 +1,116 @@
+body {
+	background:#F7F4E9 url(../images/body.png) repeat-x top center;
+}
+small {
+	color:#888
+}
+
+th,#navigation,.active,input[type=submit],.pagination a:hover,.date td a:hover {
+	background:#af1111;
+	color:#fff
+}
+
+select, textarea, input, tr, #content {
+	background:#fff url(../images/gradient.png) repeat-x 0 -28px
+}
+tr {
+	background-position:0 -18px;
+}
+#content {
+	background-position:0 1px;
+}
+
+.active, th, #head, #navigation a, input[type=submit] {
+	color:#fff;
+}
+
+input, select, textarea {
+	border-color:#ddd
+}
+
+h1,h2,h3,h4,h5,h6 {
+	border-color:#AF1111
+}
+
+a {
+	color:#888
+}
+a.edit {
+	background-image:url(../images/edit.png)
+}
+a.delete {
+	background-image:url(../images/trash.png)
+}
+
+#head {
+	background:#c52f34
+}
+
+#navigation a:hover {
+	background:#383E3C
+}
+#navigation .active {
+	background:#687370
+}
+
+.box,.box > .utils a {
+	background:#fff;
+	border-color:#eee
+}
+.box > h2 {
+	background:url(../images/box-h2.png) repeat-x bottom center #fff
+}
+
+.error,.success,.info,.error a,.success a,.info a {
+	color:#fff
+}
+.error {
+	background:#901830;
+        width : 61%;
+        float: none;
+}
+
+
+.glow-sortable-dropindicator {
+	background:#eee
+}
+
+.mesage{
+    color: #fff;
+    padding:  5px;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+td a{ float: left}
+
+.inner-tbl{
+    border: 1px solid #AF1111;
+}
+.inner-tbl th,td{
+    border-left: 1px dotted #999999;
+    font-size: 12px;
+    padding: 3px;
+    text-align: left;
+    
+}
+
+
+.sechtbl {
+    border: 3px dashed #CCCCCC;
+    margin: 0 auto;
+}
+
+.sechtbl tr {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.sechtbl td {
+    border: medium none;
+}
+
+.pagination {
+    background: none repeat scroll 0 0 #AF1111;
+    text-align: right;
+}
