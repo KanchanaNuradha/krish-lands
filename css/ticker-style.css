@@ -1,0 +1,11 @@
+
+.ticker-controls {
+	padding: 8px 0px 0px 0px;
+	list-style-type: none;
+	float: left;
+}
+
+.ticker-title{
+    text-align: right;
+    font-weight: bold;
+}
