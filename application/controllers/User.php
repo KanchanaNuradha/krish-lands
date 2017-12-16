@@ -5,7 +5,7 @@ if (!defined('BASEPATH'))
 
 class User extends CI_Controller {
 
-    public function sighIn() {
+    public function signIn() {
         $this->load->view('user/login');
     }
 
