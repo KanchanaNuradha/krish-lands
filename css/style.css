@@ -279,7 +279,7 @@ label.fxmod-error-label {
     display: block;
 }
 .fx-button {
-    background-color: #4d148c;
+    background-color: #000000;
     background: -moz-linear-gradient(center top , #9279B3 0px, #4D148C 75%) repeat scroll 0 0 rgba(0, 0, 0, 0);
     border: 2px solid #4D148C;
     border-radius: 4px;

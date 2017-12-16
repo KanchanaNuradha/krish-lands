@@ -62,9 +62,9 @@
 
         </script>
     </head>
-    <body style="background: #224">
+    <body style="background: rgb(208, 208, 208)">
         <div id="mws-login-wrapper">
-            <div id="mws-login" style="background: #121e32"> 
+            <div id="mws-login" style="background: #450c67"> 
                 <h1> KRISH LANDS Admin Login</h1>
                 <div id="mws-login-form">
                     <?php echo form_open('user/validatelogin', 'id=form1'); ?>
@@ -80,7 +80,7 @@
                     </div>
                     <div class="mws-form-row mws-inset">
                         <ul class="mws-form-list inline right" style="list-style: none " >
-                            <li>  <h3> Forgot Password?</h3>
+                            <li>  <h3 style='color:green;'> Forgot Password?</h3>
                                 <p class="text" >
                                     <a href="<?php echo base_url(); ?>index.php/user/forgetpassword" style="color:  #fff" > Get a new password. </a>
                                 </p></li>
