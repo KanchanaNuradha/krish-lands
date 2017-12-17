@@ -105,14 +105,14 @@
                     <div class="agileits-contact-main">
                         <div class="col-md-6 w3ls-map">
                             <p class="loc">Our Location</p>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100949.24429313939!2d-122.44206553967531!3d37.75102885910819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2sin!4v1472190196783" class="map" style="border:0" allowfullscreen=""></iframe>
-                        </div>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9424.165858193091!2d80.06130591087773!3d6.724180972869787!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae24b475a084f91%3A0xf0beeaf3b66bd8be!2sHorana%2C+Sri+Lanka!5e0!3m2!1sen!2sin!4v1513433530097" class="map" style="border:0" allowfullscreen=""></iframe>
+                        </div>  
                         <div class="col-md-6 wthree-contact-in">
                             <p class="sed-para"> Contact Information</p>
                             <p class="para1">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum.</p>
                             <div class="w3-address"> 
                                 <address>
-                                    <strong>Estate Group</strong><br>
+                                    <strong>KRISH LANDS</strong><br>
                                     13 browne Street, San Francisco<br>
                                     Co. Estate Group<br>								  
                                     <abbr title="Phone">P:</abbr> +040 123 456 789, +015 89 58 520 520		
