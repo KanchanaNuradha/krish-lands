@@ -87,6 +87,11 @@ $config = array(
         array('field' => 'size', 'label' => 'Size', 'rules' => 'required'),
         array('field' => 'details', 'label' => 'Details')
     ),
+    'save_blog' => array(
+        
+        array('field' => 'title', 'label' => 'Title', 'rules' => 'required'),
+        array('field' => 'content', 'label' => 'Content' , 'rules' => 'required')
+    ),
     'save_category' => array(
         array('field' => 'category_name', 'label' => 'Title', 'rules' => 'required')
     ),
