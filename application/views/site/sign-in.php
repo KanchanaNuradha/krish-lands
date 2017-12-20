@@ -16,20 +16,12 @@
         <link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
         <!--//fonts-->	
         <script type="text/javascript" src="<?php echo base_url(); ?>site/js/jquery-2.1.4.min.js"></script><!-- Required-js -->
-        <script src="<?php echo base_url(); ?>site/js/bootstrap.min.js"></script><!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <!-- Include jQuery & Filterizr -->
-
-        <script src="<?php echo base_url(); ?>site/js/jquery.filterizr.js"></script>
-        <script src="<?php echo base_url(); ?>site/js/controls.js"></script>
-
-        <!-- Kick off Filterizr -->
-        <script type="text/javascript">
-            $(function() {
-                //Initialize filterizr with default options
-                $('.filtr-container').filterizr();
-            });
-        </script>
+        <script src="<?php echo base_url(); ?>site/js/bootstrap.min.js"></script><!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+        <script type="text/javascript" src="<?php echo base_url(); ?>site/js/numscroller-1.0.js"></script>
         <!-- here stars scrolling icon -->
+        <link href="<?php echo base_url(); ?>site/css/font-awesome.css" rel="stylesheet"> 
+        <link href="<?php echo base_url(); ?>site/css/style2.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="//fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
         <script type="text/javascript">
             $(document).ready(function() {
                 /*
@@ -78,17 +70,16 @@
                                 <h1><a href="<?php echo base_url(); ?>">KRISH LANDS</a></h1>
                             </div>	
                         </div>
-
                         <!-- Collect the nav links, forms, and other content for toggling -->
                         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <ul class="nav navbar-nav">
                                 <li><a href="<?php echo base_url(); ?>">Home</a></li>
-                                <li class="active"><a href="properties">Properties</a></li>
+                                <li><a href="properties">Properties</a></li>
                                 <li><a href="blog">Blog</a></li>
                                 <li><a href="contact">Contact</a></li>
                                 <li><a href="about">About</a></li>
-                                <li><a href="signin">Signin</a></li>
-                            </ul>
+                                <li class="active"><a href="signin">Signin</a></li>
+                            </ul>   
                         </div>
                         <!-- /.navbar-collapse -->
                     </div>
@@ -102,7 +93,7 @@
         <!-- breadcrumbs -->
         <div class="w3ls-inner-banner">
             <div class="container">
-                <h2>LANDS</h2>
+                <h2>Sign In</h2>
                 <label></label>
                 <div class="clearfix"></div>
             </div>
@@ -111,45 +102,67 @@
 
         <!-- main-content -->
         <div class="main-content">
-            <!-- gallery -->
-            <div class="gallery" id="gallery">
-                <div class="container">
-                    <div class="gallery_gds">
-                        <ul class="simplefilter ">
-                            <li class="active" data-filter="all">All</li>
-                            <li data-filter="1">Commercial</li>
-                            <li data-filter="2">Residential</li>
-                            <li data-filter="3">Luxury</li>
-                        </ul>   
-                        <div class="filtr-container " style="padding: 0px; position: relative; height: 858px;">
-                            <?php
-                            foreach ($lands as $landlist) {
-                                $this->Landsm->count_lands($landlist['id']);
-                                ?>
-                                <div class="col-md-4 col-ms-6 jm-item first filtr-item" data-category="1, 5" data-sort="Busy streets" style="opacity: 1; transform: scale(1) translate3d(0px, 0px, 0px); backface-visibility: hidden; perspective: 1000px; transform-style: preserve-3d; position: absolute; transition: all 0.5s ease-out 0ms;">
-                                    <div class="jm-item-wrapper">
-                                        <div class="jm-item-image">
-                                            <img src="<?php echo base_url(); ?>files/<?php echo $landlist['image'] ?>" alt="property" />
-                                            <span class="jm-item-overlay"> </span>
-                                            <div class="jm-item-button"><a href="property-details">View Details</a></div>
-                                        </div>	
-                                        <div class="jm-item-title">Rs.<?php echo $landlist['prize'] ?>/-</div>
-                                        <a class="agile-its-property-title" href="property-details">Land at <?php echo $location[$landlist['location']] ?></a>
-                                        </br>
-                                        <p class="w3ls-p-text"><?php echo $landlist['address'] ?></p>
-                                        <p class="w3ls-p-text"><?php echo $landlist['details'] ?></p>
-                                    </div>
-                                </div>
-                                <?php
-                            }
-                            ?>
-
-                            <div class="clearfix"> </div>
+            <div class="wthree-dot">
+                <h1>E-com Login & signup Forms</h1>
+                <div class="profile">
+                    <div class="wrap">
+                        <div class="content-main">
+                            <div class="w3ls-subscribe w3ls-subscribe1">
+                                <h4>already have an account?</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec quam</p>
+                                <form action="#" method="post">
+                                    <input type="email" name="Search" placeholder="Email" required="">
+                                    <input type="password" name="password" placeholder="Password" required="">
+                                    <input type="submit" value="Login">
+                                </form>
+                            </div>
+                        </div>
+                        <!--                        <div class="content-main content-main1">
+                                                    <div class="w3ls-subscribe">
+                                                        <h4>New Customer?</h4>
+                                                        <p>Nunc nec libero et velit dapibus auctor. Etiam vitae condimentum leo, in dapibus lacus. Suspendisse scelerisque</p>
+                                                        <form action="#" method="post">
+                                                            <input type="text" name="Search" placeholder="First Name" required="">
+                                                            <input type="text" name="Search" placeholder="Last Name" required="">
+                                                            <input type="email" name="Search" placeholder="Email" required="">
+                                                            <input type="password" name="password" placeholder="Password" required="">
+                                                            <input type="password" name="password" placeholder="Confirm Password" required="">
+                                                            <input type="submit" value="Sign Up">
+                                                        </form>
+                                                    </div>
+                                                </div>-->
+                        <div class="wthree_footer_copy">
                         </div>
                     </div>
-                </div>	
+                </div>
             </div>
-            <!--//gallery-->
+            <!-- contact-section -->
+            <!--contact-->
+            <!--            <div class="w3layouts-contact-section">
+                            <div class="container">
+                                <div class="agileinfo-contact-bottom">
+                                    <h3 class="text-center find">Sign IN</h3>
+                                    <p class="contactpara1 text-center">Sign in to perform actions</p>
+            
+                                    <form action="#" method="get">
+                                        <div class=" w3layouts-contact-grid">
+                                            <p class="your-para text-center">Your Name:</p>
+                                            <input type="text" placeholder="" name="your name" required="" />
+                                            <p class="your-para text-center">Your Password:</p>
+                                            <input type="text" placeholder="" name="email" required="" />	
+                                        </div>
+                                        <div class="send">
+                                            <input type="submit" value="Sign In" >
+                                        </div>
+                                        <div class="clearfix"> </div>
+                                    </form>	
+                                </div>
+                            </div>
+                        </div>-->
+            <!--//contact-->
+
+            <!-- contact-section  -->
+
         </div>
         <!-- //main-content -->
         <!-- footer -->

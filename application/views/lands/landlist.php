@@ -36,6 +36,7 @@ gethead($css, $msg, $error, $session_data, $mainmenu, $prof_inf, $title);
                         <th> Land ID </th>
                         <th> Category  </th>
                         <th> Location </th>
+                        <th> Prize</th>
                         <th> Address </th>
                         <th> Size </th>
                         <th> Image </th>
@@ -55,6 +56,7 @@ gethead($css, $msg, $error, $session_data, $mainmenu, $prof_inf, $title);
                             <td> <?php echo $landlist['id'] ?></td> 
                             <td> <?php echo $category[$landlist['category_name']] ?></td>
                             <td> <?php echo $location[$landlist['location']] ?></td>
+                            <td> <?php echo $landlist['prize'] ?></td>
                             <td> <?php echo $landlist['address'] ?></td>
                             <td> <?php echo $landlist['size'] ?></td>
                             <td><?php if ($landlist['image']) { ?>

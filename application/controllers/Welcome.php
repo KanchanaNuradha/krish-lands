@@ -5,7 +5,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Welcome extends CI_Controller {
 
     public function index() {
-        $this->load->view('site/index.php');
+        $this->load->model('Landsm');
+        $data['lands'] = $this->Landsm->get_all();
+        $this->load->model('Categoriesm');
+        $data['category'] = $this->Categoriesm->categoryDd();
+        $this->load->model('Locationsm');
+        $data['location'] = $this->Locationsm->locationDd();
+        $this->load->model('Usersm');
+        $this->load->model('Offersm');
+        $this->load->view('site/index.php' , $data);
     }
 
     public function about() {
@@ -13,7 +21,15 @@ class Welcome extends CI_Controller {
     }
 
     public function properties() {
-        $this->load->view('site/properties.php');
+        $this->load->model('Landsm');
+        $data['lands'] = $this->Landsm->get_all();
+        $this->load->model('Categoriesm');
+        $data['category'] = $this->Categoriesm->categoryDd();
+        $this->load->model('Locationsm');
+        $data['location'] = $this->Locationsm->locationDd();
+        $this->load->model('Usersm');
+        $this->load->model('Offersm');
+        $this->load->view('site/properties.php' , $data);
     }
 
     public function blog() {
@@ -37,8 +53,26 @@ class Welcome extends CI_Controller {
     }
 
     public function typography() {
-        $this->load->view('site/typography.php');
+        $this->load->view('site/typography.php');   
+    } 
+    
+    public function signin() {
+        $this->load->view('site/sign-in.php');
     }
+    public function property1() 
+       {
+       	$this->load->model('Landsm');
+        $data['lands'] = $this->Landsm->get_all();
+        $this->load->model('Categoriesm');
+        $data['category'] = $this->Categoriesm->categoryDd();
+        $this->load->model('Locationsm');
+        $data['location'] = $this->Locationsm->locationDd();
+        $this->load->model('Usersm');
+        $this->load->model('Offersm');
+        $data['session_data'] = $this->Usersm->getLoginSession();
+        $this->load->view('site/property', $data);
+       }
+    
 
 //    public function find_job() {
 //        $this->load->model('Usersm');

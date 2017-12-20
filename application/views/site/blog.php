@@ -65,6 +65,7 @@
                                 <li class="active"><a href="blog">Blog</a></li>
                                 <li><a href="contact">Contact</a></li>
                                 <li><a href="about">About</a></li>
+                                <li><a href="signin">Signin</a></li>
                             </ul>
                         </div>
                         <!-- /.navbar-collapse -->

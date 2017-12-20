@@ -32,7 +32,7 @@ gethead($css, $msg, $error, $session_data, $mainmenu, $prof_inf, $title);
                     <div class="mws-form-item">
                         <?php
                         echo form_hidden('id', $blogposts['id']);
-                        echo form_input('title', $blogposts , $blogposts['title'], 'class="medium"');
+                        echo form_input('title', $blogposts['title'], 'class="medium"');
                         ?>                        
                     </div>
                 </div>

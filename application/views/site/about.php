@@ -76,6 +76,7 @@
                                 <li><a href="blog">Blog</a></li>
                                 <li><a href="contact">Contact</a></li>
                                 <li class="active"><a href="about">About</a></li>	
+                                <li><a href="signin">Signin</a></li>
                             </ul>
                         </div>
                         <!-- /.navbar-collapse -->
@@ -105,25 +106,84 @@
                 <div class="container">
                     <div class="col-md-6 welcome_top_left">
                         <h3>WELCOME</h3>
-                        <h5>TO OUR ESTATE GROUP</h5>
+                        <h5>TO KRISH LANDS Pvt(LTD) </h5>
                         <p>Lorem Ipsum is simply dummy printing industry. It has survived not. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently.</p>
                     </div>
                     <div class="col-md-6 welcome_top_right">
-                        <h3>WE'RE OPEN</h3>
-                        <h5>In Sed Ut perspiciatis Street</h5>
+                        <h3>Always Ready</h3>
+                        <h5>Every Krish Land branch ready for yuo.   </h5>
                         <div class="welcome_right_location">
                             <div class="location_img">
                                 <img src="<?php echo base_url(); ?>site/images/loc.jpg" alt="">
                             </div>
                             <div class="location">
-                                <p>Lorem Ipsum has been the industry's since the 1500s. It has survived centuries.</p>
-                                <p class="location_text"><span class="glyphicon glyphicon-map-marker"></span>795 Folsom Ave, Suite 600,San Francisco, CA 94107</p>
-                                <p class="location_text"><span class="glyphicon glyphicon-dashboard"></span>Mon to Sat 8:30am - 4:30pm,  Sunday - Holiday</p>
+                                <p>Every krish lands branch open all 7 days of the week with most of hlidays</p>
+                                <p class="location_text"><span class="glyphicon glyphicon-map-marker"></span>Head Branch :- Blismbuilding ,40/19 Vauxhall Street , Colombo 6</p>
+                                <p class="location_text"><span class="glyphicon glyphicon-dashboard"></span>Mon to Sat 8:30am - 5:30pm  , Sunday  8.00 - 3.30 pm</p>
                             </div>
                             <div class="clearfix"></div>
                         </div>
                     </div>
                     <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="features-w3l">
+                <div class="container">
+                    <h3>Our Features</h3>
+                    <div class="wthree_w3l_grids">
+                        <div class="col-md-6 wthree_w3l_grid">
+                            <div class="col-xs-3 wthree_w3l_grid-left">
+                                <div class="wthree_w3l_grid-left1">
+                                    <i class="fa fa-home" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="col-xs-9 wthree_w3l_grid-right">
+                                <h4> Best locations to buildup your home</h4>
+                                <p>Kindom of a family is their home. Find the best palce to builup yor dream home. Observe perfect location here. We are here to make ur choice better</p>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="col-md-6 wthree_w3l_grid wow fadeInRight animated" data-wow-delay=".5s">
+                            <div class="col-xs-3 wthree_w3l_grid-left">
+                                <div class="wthree_w3l_grid-left1">
+                                    <i class="fa fa-key" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="col-xs-9 wthree_w3l_grid-right">
+                                <h4>Our target</h4>
+                                <p>Our target is to be the Best Real Estate Company in Sri lanka by the Year 2020.</p>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="wthree_w3l_grids">
+                        <div class="col-md-6 wthree_w3l_grid wow fadeInLeft animated" data-wow-delay=".5s">
+                            <div class="col-xs-3 wthree_w3l_grid-left">
+                                <div class="wthree_w3l_grid-left1">
+                                    <i class="fa fa-building-o" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="col-xs-9 wthree_w3l_grid-right">
+                                <h4>Our Vision</h4>
+                                <p>Committed To Create a Better Place on Earth.</p>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="col-md-6 wthree_w3l_grid wow fadeInRight animated" data-wow-delay=".5s">
+                            <div class="col-xs-3 wthree_w3l_grid-left">
+                                <div class="wthree_w3l_grid-left1">
+                                    <i class="fa fa-briefcase" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                            <div class="col-xs-9 wthree_w3l_grid-right">
+                                <h4>Our Service</h4>
+                                <p>Krish Lands (Pvt) Ltd a leading Real State company in property development. We are providing high quality and value added solutions to delight our customers. We ensure trust and loyalty by giving more value for money and providing a rapid personalized and courteous service.</p>
+                            </div>
+                            <div class="clearfix"> </div>
+                        </div>
+                        <div class="clearfix"> </div>
+                    </div>
                 </div>
             </div>
             <!-- /welcome -->
@@ -154,7 +214,7 @@
             <!-- //Stats -->
 
             <!-- OUR AGENTS -->
-            <section class="team-w3ls">
+<!--            <section class="team-w3ls">
                 <div class="container">
                     <div class="agileits-team text-center">
                         <h3>MEET OUR AGENTS</h3>
@@ -254,7 +314,7 @@
                     </div>
                 </div>
             </section>	
-            <!-- modal-for agent1-details -->
+             modal-for agent1-details 
             <div class="modal fade modal-about" id="agent1" tabindex="-1" role="dialog">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content"> 
@@ -297,8 +357,8 @@
                     </div>
                 </div>
             </div>
-            <!-- //modal-for agent1-details -->
-            <!-- modal-for agent2-details -->
+             //modal-for agent1-details 
+             modal-for agent2-details 
             <div class="modal fade modal-about" id="agent2" tabindex="-1" role="dialog">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content"> 
@@ -341,8 +401,8 @@
                     </div>
                 </div>
             </div>
-            <!-- //modal-for agent2-details -->
-            <!-- modal-for agent3-details -->
+             //modal-for agent2-details 
+             modal-for agent3-details 
             <div class="modal fade modal-about" id="agent3" tabindex="-1" role="dialog">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content"> 
@@ -385,8 +445,8 @@
                     </div>
                 </div>
             </div>
-            <!-- //modal-for agent3-details -->
-            <!-- modal-for agent4-details -->
+             //modal-for agent3-details 
+             modal-for agent4-details 
             <div class="modal fade modal-about" id="agent4" tabindex="-1" role="dialog">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content"> 
@@ -429,8 +489,8 @@
                     </div>
                 </div>
             </div>
-            <!-- //modal-for agent4-details -->
-            <!-- modal-for agent5-details -->
+             //modal-for agent4-details 
+             modal-for agent5-details 
             <div class="modal fade modal-about" id="agent5" tabindex="-1" role="dialog">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content"> 
@@ -473,8 +533,8 @@
                     </div>
                 </div>
             </div>
-            <!-- //modal-for agent5-details -->
-            <!-- modal-for agent6-details -->
+             //modal-for agent5-details 
+             modal-for agent6-details 
             <div class="modal fade modal-about" id="agent6" tabindex="-1" role="dialog">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content"> 
@@ -517,8 +577,8 @@
                     </div>
                 </div>
             </div>
-            <!-- //modal-for agent6-details -->
-            <!-- modal-for agent7-details -->
+             //modal-for agent6-details 
+             modal-for agent7-details 
             <div class="modal fade modal-about" id="agent7" tabindex="-1" role="dialog">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content"> 
@@ -561,8 +621,8 @@
                     </div>
                 </div>
             </div>
-            <!-- //modal-for agent7-details -->
-            <!-- modal-for agent8-details -->
+             //modal-for agent7-details 
+             modal-for agent8-details 
             <div class="modal fade modal-about" id="agent8" tabindex="-1" role="dialog">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content"> 
@@ -605,10 +665,10 @@
                     </div>
                 </div>
             </div>
-            <!-- //modal-for agent8-details -->
-            <!-- //	OUR AGENTS -->
-            <!-- //about-page -->
-        </div>
+             //modal-for agent8-details 
+             //	OUR AGENTS 
+             //about-page 
+        </div>-->
         <!-- //main-content -->
         <!-- footer -->
         <?php

@@ -58,7 +58,6 @@ gethead($css, $msg, $error, $session_data, $mainmenu, $prof_inf, $title);
                         <textarea class="ckeditor" cols="80" id="editor1" name="details" rows="10">
                             <?php echo $lands['details']; ?>
                         </textarea>
- 
                     </div>
                 </div>          
                 <div class="mws-form-row">

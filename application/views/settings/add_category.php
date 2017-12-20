@@ -34,7 +34,7 @@ gethead($css, $msg, $error, $session_data, $mainmenu, $prof_inf, $title);
                         echo form_input('category_name', $categories['category_name'], 'class="medium"');
                         ?>
                     </div>
-                </div>      
+                </div>
                 <div class="mws-button-row">
                     <input type="submit" class="btn btn-danger" value="Submit">
                     <input type="reset" class="btn " value="Reset">

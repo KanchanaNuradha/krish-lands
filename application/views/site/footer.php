@@ -4,7 +4,7 @@
 			<div class="container">
 				<div class="col-md-6 footer-top-left">
 					<h3><a href="<?php echo base_url(); ?>">KRISH LANDS</a></h3>
-					<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled.</p>
+					<p>Owning a beautiful land is everyone's dream. At Prime Lands we have made it our mission to make this dream a reality. If your plan is to obtain a plot of land, to build a home for you and your family, we can offer you a choice of the best land options in the country, together with a host of support services that includes legal and financial support, to make your dream come true. With our extensive experience and market presence we can give the best options in the country, for your land requirements</p>
 					<ul class="fb_icons2">
 						<li><a class="fb" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 						<li><a class="twit" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -28,10 +28,10 @@
 					<address>
 						<ul>
 							<li>Blism Buulding</li>
-							<li>400/19 Vauxhall Street , Colombo 6</li>
-							<li>BO, Italy</li>
-							<li>Telephone : +94 11 456 757</li>
-							<li>Email : <a class="mail" href="mailto:info@ekrishlands.com">info@krishlands.com</a></li>
+							<li>40/19 Vauxhall Street , Colombo 6,</li>
+							<li>Sri Lanka</li>
+							<li>Telephone : +94 71 7711587</li>
+							<li>Email : <a class="mail" href="krishlandsinfo@gmail.com">krishlandsinfo@gmail.com</a></li>
 						</ul>
 					</address>				
 				</div>
@@ -40,6 +40,6 @@
 		</div>
 		<!-- //footer-top -->
 		<div class="w3layouts-copyright">
-			<p class="footer">&copy; 2016 KRISH LANDS | All Rights Reserved</p>
+			<p class="footer">&copy; 2017 KRISH LANDS | All Rights Reserved</p>
 		</div>
 	</footer>
